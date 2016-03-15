@@ -1,0 +1,247 @@
+
+.fullform {
+            width:435px;
+            float:left;
+            margin:0px;
+            padding:0px 0 0px 0px;
+            background-color: inherit;
+            background-repeat:no-repeat;
+            margin-left:33%;
+            margin-top:5%;
+            padding-bottom: 3%;
+        }
+        
+.header {
+            width:400px;
+            height:100px;
+            float: left;
+            background-image:url("../images/registration.png");
+            background-position:center;
+            background-color: yellowgreen;
+            background-repeat:no-repeat;
+            border-top-left-radius:1em;
+            border-top-right-radius:1em;
+            border-color: #fff;
+        }    
+ .header2 {
+            width:400px;
+            height:100px;
+            float: left;
+            background-image:url("../images/registration2.png");
+            background-position:center;
+            background-color: yellowgreen;
+            background-repeat:no-repeat;
+            border-top-left-radius:1em;
+            border-top-right-radius:1em;
+            border-color: #fff;
+        }  
+ .header3 {
+            width:400px;
+            height:100px;
+            float: left;
+            background-image:url("../images/registration3.png");
+            background-position:center;
+            background-color: yellowgreen;
+            background-repeat:no-repeat;
+            border-top-left-radius:1em;
+            border-top-right-radius:1em;
+            border-color: #fff;
+        }         
+.form {
+            
+            width:400px;
+            height:110%;
+            float: left;
+           position:relative;
+            background-color: #f0ead8;
+            background-repeat:no-repeat;
+            border-bottom-left-radius:1em;
+            border-bottom-right-radius:1em;
+            border-color: #1d1d1d;           
+        }        
+
+
+        
+#regcancel {
+            width:90px;
+            height:30px;
+            float: left;
+            padding:0px 0 0px 0px;
+            margin: 200px 0px 0px 230px;
+            background-color: #000;
+            background-repeat:no-repeat;   
+            font-family: serif;
+            font-size:10px;
+            text-align: center;
+            color:#fff;
+            border-radius:1em;
+            
+        }        
+        
+#regcancelbut   {
+            width:90px;
+            height:30px;
+            float: left;
+            padding:0px 0 0px 0px;
+            margin: 200px 0px 0px 230px;
+            background-color: #fff;
+            background-repeat:no-repeat;   
+            font-family:serif;
+            font-size:10px;
+            text-align: center;
+            color:#000;
+            border-radius:1em;
+            
+        }        
+.styled {
+        font: 15px serif;
+        width: 400px; 
+        margin: 0px auto; 
+        padding-top: 0px;
+        position:relative;
+}
+.styled fieldset {
+   
+        color:#fff;
+        position: relative;
+        border-bottom-left-radius:1em;
+        border-bottom-right-radius:1em;
+        border-color: #ededed;  
+}
+.styled fieldset h3 { 
+        font: 22px bold serif;
+        color: #555;
+        margin-bottom: 0.5em;
+        
+}
+
+.styled fieldset li.form-row {
+        margin-bottom: 5px; 
+        padding: 3px 0; 
+        clear: both; 
+        position: relative;
+}
+.styled label {
+        display: block; 
+        font-weight: bold; 
+        float: left; 
+        width: 100px; 
+        line-height: 24px; 
+        padding-top: 4px; 
+        color: #555;
+}
+.styled label.double {
+        padding-top: 0; 
+        line-height: 20px; 
+        margin-top: -3px;
+}
+.styled fieldset li.button-row {
+        margin-bottom: 0; 
+        padding: 5px ; 
+        text-align: center;
+        margin-left: -50px; 
+}
+
+.styled input.text-input {
+        height: 22px;
+        width: 254px;
+        padding: 5px 8px; 
+        background: url(../images/bg_input.png) no-repeat 0 0;  
+        border: none;   
+        font: normal 15px Arial, sans-serif;
+        color: #333;
+        line-height: 1em;
+}
+
+/* Form Validation */
+.styled span.error {
+    font: bold 10px serif;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    display: none; 
+    background: url(../images/arrow_error.png) no-repeat 0 center; 
+    height: 11px;
+    padding: 7px 15px 10px 20px; 
+    line-height: 1em; 
+    position: absolute; 
+    top: 3px; 
+    right: 0; 
+    border-right: 1px solid #6c0202;
+}
+.styled fieldset li.error input.text-input {
+    background-position: 0 -64px;
+} 
+        
+li {
+    list-style-type: none; 
+   }
+ul {
+    margin-left: 20px; 
+    padding-left: 20px; 
+   }
+#btn-cancel{
+     background: url(../images/btn_cancel.png);
+     height:40px;
+     width:140px;
+}
+ #btn-submit{
+     background: url(../images/btn_sign_up_off.png);
+     height:40px;
+     width:140px;
+}
+#btn-reg{
+     background: url(../images/btn_sign_up_off.png);
+     margin-top:15px;
+     height:40px;
+     width:140px;
+}
+ #btn-submitlog{
+     background: url(../images/btn-login.png);
+     height:40px;
+     width:140px;
+}
+#btn-back-log{
+     background: url(../images/btn-back-log.png);
+     margin-top:15px;
+     height:40px;
+     width:140px;
+}
+.btn-user-submit {
+    background: url(../images/btn-user-submit.png);
+    height:40px;
+    width:50px;
+}
+#reg_error {
+    width: 300px; height:200px;
+    margin-top:10%;
+    margin-left:5%;
+    background: #efefef;
+    border: 1px solid #000;
+    position:fixed;
+    border-radius: 10px; 
+    color:black;
+    display:none;
+    text-align:center;
+	font: 15px Arial, sans-serif; 
+      }
+#reg_error:hover { 
+    color:red;
+      }	  
+
+#log_error {
+    width: 300px; height:150px;
+    margin-top:10%;
+    margin-left:5%;
+    background: #efefef;
+    border: 1px solid #000;
+    position:fixed;
+    border-radius: 10px; 
+    color:black;
+    display:none;
+    text-align:center;
+	font: 15px Arial, sans-serif; 
+      }
+#log_error:hover { 
+    color:red;
+      }	  
+     
